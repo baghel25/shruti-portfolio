@@ -1,0 +1,78 @@
+export const projects = [
+  {
+    id: 1,
+    emoji: '📊',
+    bgClass: 'p1',
+    tag: 'Analytics',
+    title: 'API Reliability Dashboard',
+    desc: 'Real-time API reliability monitoring and observability dashboard with high-throughput data ingestion, metrics tracking, and performance insights.',
+    stack: ['Vue 3', 'Python', 'AWS', 'Redis'],
+    links: [
+      { label: 'Live Demo', href: 'https://api-reliability-dashboard-acp77g73d.vercel.app/' },
+      { label: 'GitHub', href: 'https://github.com/baghel25/api-reliability-dashboard' },
+    ],
+  },
+  {
+    id: 2,
+    emoji: '📓',
+    bgClass: 'p2',
+    tag: 'Fintech',
+    title: 'Trade Journal',
+    desc: 'Personal trade journaling app to log, track and analyse trading activity with performance metrics, P&L tracking, and portfolio insights.',
+    stack: ['React', 'Node.js', 'MongoDB'],
+    links: [
+      { label: 'Live Demo', href: 'https://trade-journal-lac.vercel.app' },
+      { label: 'GitHub', href: 'https://github.com/baghel25/trade-journal' },
+    ],
+  },
+  {
+    id: 3,
+    emoji: '🤝',
+    bgClass: 'p3',
+    tag: 'SaaS Tool',
+    title: 'Chatbot Flow Builder',
+    desc: 'Visual drag-and-drop chatbot flow builder with node-based UI, conditional logic branching, and real-time canvas preview.',
+    stack: ['React', 'TypeScript', 'CSS3'],
+    links: [
+      { label: 'Live Demo', href: 'https://baghel25.github.io/Chatbot-flow-builder/' },
+      { label: 'GitHub', href: 'https://github.com/baghel25/Chatbot-flow-builder' },
+    ],
+  },
+  {
+    id: 4,
+    emoji: '🏠',
+    bgClass: 'p4',
+    tag: 'Full Stack',
+    title: 'Real Estate App',
+    desc: 'Full-stack real estate listing and search platform with responsive design, advanced property filtering, and detailed listing views.',
+    stack: ['React', 'Node.js', 'MongoDB', 'REST API'],
+    links: [
+      { label: 'Live Demo', href: 'https://baghel25.github.io/React-asssignment/' },
+      { label: 'GitHub', href: 'https://github.com/baghel25/real-estate' },
+    ],
+  },
+  {
+    id: 5,
+    emoji: '🍛',
+    bgClass: 'p5',
+    tag: 'UI / React',
+    title: 'Indian Cuisine App',
+    desc: 'A beautifully designed recipe and cuisine discovery app showcasing Indian dishes with category filters, search, and detailed recipe cards.',
+    stack: ['React', 'JavaScript', 'CSS3'],
+    links: [
+      { label: 'GitHub', href: 'https://github.com/baghel25/indian-cuisine-app' },
+    ],
+  },
+  {
+    id: 6,
+    emoji: '💰',
+    bgClass: 'p6',
+    tag: 'Fintech',
+    title: 'Loan Amortization Calculator',
+    desc: 'Interactive loan calculator with dynamic amortization schedules, EMI breakdowns, tenure adjustments, and visual repayment charts.',
+    stack: ['React', 'JavaScript', 'CSS3'],
+    links: [
+      { label: 'GitHub', href: 'https://github.com/baghel25/loan-amortization-calculator' },
+    ],
+  },
+]

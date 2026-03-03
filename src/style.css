@@ -1,0 +1,16 @@
+:root {
+  --bg: #050508;
+  --surface: #0c0c14;
+  --primary: #00f5d4;
+  --accent: #7b2fff;
+  --genai: #ff2d78;
+  --text: #e6e6f0;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
