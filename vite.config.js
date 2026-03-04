@@ -12,25 +12,18 @@ export default defineConfig({
   },
 
   build: {
-    // Output to dist/ (default — works for Vercel, Netlify, GitHub Pages)
     outDir: 'dist',
-
-    // Minify with esbuild (fast, no extra deps)
     minify: 'esbuild',
-
-    // Inline assets smaller than 4kb as base64
     assetsInlineLimit: 4096,
-
-    // Generate source maps for production debugging (set false to reduce bundle size)
     sourcemap: false,
-
     rollupOptions: {
       output: {
-        // Split vendor chunks for better caching
-        manualChunks: {
-          vue: ['vue'],
+        // ✅ Function form — required for Vite 6 / rolldown
+        manualChunks(id) {
+          if (id.includes('node_modules/vue')) {
+            return 'vue'
+          }
         },
-        // Clean asset filenames
         chunkFileNames:  'assets/js/[name]-[hash].js',
         entryFileNames:  'assets/js/[name]-[hash].js',
         assetFileNames:  'assets/[ext]/[name]-[hash].[ext]',
@@ -38,7 +31,6 @@ export default defineConfig({
     },
   },
 
-  // Dev server config
   server: {
     port: 5173,
     open: true,
