@@ -2,7 +2,7 @@
 
 > Senior Full Stack & GenAI Engineer · Vue 3 · Python · React · Node.js · AWS · RAG · LLMs
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-shruti--portfolio.vercel.app-00f5d4?style=for-the-badge&logo=vercel&logoColor=black)](https://shruti-portfolio-jt582oqar-shruti-singh-baghels-projects.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-shruti--portfolio.vercel.app-00f5d4?style=for-the-badge&logo=vercel&logoColor=black)](https://shruti-portfolio-5b8ul6ox4-shruti-singh-baghels-projects.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-baghel25-7b2fff?style=for-the-badge&logo=github)](https://github.com/baghel25)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shruti%20Singh%20Baghel-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shruti-singh-baghel-2b67a416a/)
 
