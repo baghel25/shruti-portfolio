@@ -3,7 +3,9 @@
 ════════════════════════════════════════════════════════════════ -->
 <template>
   <nav>
-    <a class="nav-logo" href="#">SSB_</a>
+    <a class="nav-logo" href="#">
+      <img src="/public/logo-icon.svg" alt="Logo" />
+    </a>
     <ul class="nav-links">
       <li v-for="link in links" :key="link.href">
         <a :href="link.href">{{ link.label }}</a>
@@ -13,6 +15,7 @@
 </template>
 
 <script setup>
+// import logo from "../assets/logo.svg";
 const links = [
   { label: "About", href: "#about" },
   { label: "Work", href: "#projects" },
@@ -29,7 +32,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 4rem;
+  padding: 0.5rem 4rem;
   z-index: 100;
   backdrop-filter: blur(20px);
   background: rgba(6, 6, 16, 0.7);
@@ -74,7 +77,7 @@ nav {
 }
 @media (max-width: 768px) {
   nav {
-    padding: 1.2rem 1.5rem;
+    padding: 0.2rem 1.5rem;
   }
   .nav-links {
     gap: 1.2rem;
