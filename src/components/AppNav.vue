@@ -15,7 +15,6 @@
 </template>
 
 <script setup>
-// import logo from "../assets/logo.svg";
 const links = [
   { label: "About", href: "#about" },
   { label: "Work", href: "#projects" },
