@@ -16,19 +16,6 @@ export default defineConfig({
     minify: 'esbuild',
     assetsInlineLimit: 4096,
     sourcemap: false,
-    rollupOptions: {
-      output: {
-        // ✅ Function form — required for Vite 6 / rolldown
-        manualChunks(id) {
-          if (id.includes('node_modules/vue')) {
-            return 'vue'
-          }
-        },
-        chunkFileNames:  'assets/js/[name]-[hash].js',
-        entryFileNames:  'assets/js/[name]-[hash].js',
-        assetFileNames:  'assets/[ext]/[name]-[hash].[ext]',
-      },
-    },
   },
 
   server: {
